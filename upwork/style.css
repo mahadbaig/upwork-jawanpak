@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    /* border: 2px solid red; */
+    padding: 0 15px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.headerBox{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    border-bottom: 2px solid lightgray;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid purple; */
+    width: 60%;
+    justify-content: space-around;
+}
+.logo li{
+    display: inline-block;
+    margin:5px;
+    /* color: black; */
+    color: grey !important;
+
+    
+}
+
+.logo li i{
+    color: #CCD4CB;
+}
+.usersBTn{
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.usersBTn a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.usersBTn a:hover{
+    color: #14A800;
+}
+
+.signUpBtn{
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #14A800;
+    color: white !important;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.topSection{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: grey !important;
+}
+.topSection>div{
+    margin: 15px 0;
+}
+.navLinks{
+    width: 100%;
+}
+.navLinks ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+
+.navLinks ul li:hover{
+    color: #14A800;
+    cursor: pointer;
+}
+
+.topHeading{
+    color: #001E00;
+    font-size: 32px;
+    text-align: center;
+}
+.searchBar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center ; */
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.searchTabs a{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+
+.inputBar{
+    margin: 10px 0;
+    border: 2px solid lightgray;
+    width: 50%;
+    padding: 2px;
+    border-radius: 15px;
+}
+.inputBar input{
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+}
+.inputBar span{
+    background-color: #14A800;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.brandLogo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    margin: 20px 10px;
+}
+
+
+
+
+/* TALENT  */
+
+
+
+
+.talent{
+    margin: 15px auto;
+    width: 1150px;
+    height: 500px;
+    background-image: url("./images/find-talent.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.talentDes{
+    width: 40%;
+    margin: 0 20px;
+    color: white;
+}
+.talentDes h1{
+    margin: 10px 0;
+    font-size: 42px;
+}
+.talentDes h5{
+    font-size: large;
+}
+
+.talentcardcontainer{
+    display: flex;
+}
+
+.talentcarditems{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #14A800;
+    color: white;
+    margin: 50px 20px;
+}
+
+.talentcarditems h1{
+    font-size: 35px;
+    margin: 20px;
+    padding-top: px;
+}
+
+.talentcarditems P{
+   margin-left: 20px;
+}
+
+.talentcarditems:hover{
+    background-color: white;
+    color: #14A800;
+    cursor: pointer;
+    box-shadow: 10px 10px 50px black;
+}
+
+
+
+/* HIRE A PRO  */
+
+
+
+.hireapro{
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    /* border: gray 2px solid; */
+}
+
+
+.hireaproheadings{
+    width: 30%;
+    height: 500px;
+
+}
+
+.hireaproheadings h1{
+    font-size: 50px;
+}
+
+.hireaproheadings h2{
+    color:grey;
+    margin: 10px auto;
+}
+
+.hireaproheadings h2:hover{
+    color: #001E00;
+    cursor: pointer;
+}
+
+.hireaproimg{
+    width:50% ;
+    margin-left: 100px;
+}
+
+.hireaproimg img{
+    height: 370px;
+    border-radius: 10px;
+   
+    
+}
+
+.hireaproimg p{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: small;
+    color: gray;
+    margin: 5px 0;
+    width: 100;
+}
+
+.hireaproimg p:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* WORK  */
+
+.workcontainer{
+    display: flex;
+    /* border: solid 1px; */
+    width: 1150px;
+    height: 638px;
+    margin: 50px auto;
+    border-radius: 100px;
+    /* border: 10px black solid; */
+}
+
+.workimg{
+    width: 50%;
+    
+}
+
+.workdes{
+    width: 100%;
+    background-color:#1F57C3 ;
+    color: white;
+    
+}
+
+.workdes h1{
+    margin: 100px 50px;
+    font-size: 42px;
+   width: 250px;
+   
+}
+
+.workdes h5{
+    font-size: medium;
+    margin: -80px 50px;
+    
+}
+
+
+
+.ulcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 220px 50px;
+    border-top: 1px white solid;
+}
+
+.ulcontainer li{
+    width: 150px;
+    padding: 10px;
+    
+}
+
+
+/* TESTIMONIALS */
+
+.testimonials{
+    display: flex;
+    border: 2px black solid;
+    width: 1200px;
+    margin: 50px ;
+}
+
+.testimonial1{
+    display: flex;
+}
+
+.testimonial1 h1{
+    font-size: 42px;
+    width: 500px;
+    display: inline-block;
+    border: solid 1px;
+}
+
+.testimonial1 img{
+    justify-content: right;
+    margin-top: 150px;
+}
+
+.testimonial1 label p{
+    font-size: x-large;
+    color: #14A800;
+    
+}
